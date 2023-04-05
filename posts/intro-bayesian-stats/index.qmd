@@ -1,0 +1,34 @@
+---
+title: "Basic introduction to Bayesian statistics for learning analytics" 
+description: Blabla blabla.
+date: "2023-03-20"
+author:
+  - name: Andrew Ellis
+    url: https://github.com/awellis
+    affiliation: Virtuelle Akademie, Berner Fachhochschule 
+    affiliation-url: https://www.virtuelleakademie.ch
+    orcid: 0000-0002-2788-936X
+license: CC BY
+citation: true
+# bibliography: ../../bibliography.bib
+format:
+    html:
+        toc: true
+        code-link: true
+execute: 
+  cache: false
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+
+
+```{r}
+library(tidyverse)
+
+```
+
+
+
