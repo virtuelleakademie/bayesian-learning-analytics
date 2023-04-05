@@ -10,5 +10,8 @@
   },
   "about.qmd": {
     "about.html": "43e8a913"
+  },
+  "posts/intro-bayesian-stats/index.qmd": {
+    "index.html": "159f1574"
   }
 }
