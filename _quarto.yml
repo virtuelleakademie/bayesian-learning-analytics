@@ -1,8 +1,10 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "bayesian-learning-analytics"
+  reader-mode: true
   navbar:
     right:
       - about.qmd
@@ -14,6 +16,13 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    link-external-newwindow: true
 
 
+execute:
+  cache: true
+  freeze: auto
+  execute-dir: project
 
+editor:
+  render-on-save: true
